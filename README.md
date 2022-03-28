@@ -2,7 +2,7 @@
 
 Who doesn't love a good quote right? Here's an app so you can scroll through some at your leisure.
 
-**Link to project: [Live-demo]https://jscorz-luxur.netlify.app**
+**Link to project: [Live-demo]https://jscorz-quotes.netlify.app**
 
 |          Desktop           |              Mobile              |
 | :------------------------: | :------------------------------: |
