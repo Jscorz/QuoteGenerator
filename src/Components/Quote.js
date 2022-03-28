@@ -34,9 +34,12 @@ const Quote = () => {
   return (
     <Wrapper>
       <section>
-        <h1>{quote.author}</h1>
-        <h1>{quote.content}</h1>
-        <h2>{quote.authorSlug}</h2>
+        <h1>Random Quote Generator</h1>
+        <h2>{quote.author}</h2>
+        <p>{quote.content}</p>
+        <div className='btn-container'>
+          <button type='button'>next quote</button>
+        </div>
       </section>
     </Wrapper>
   );
@@ -46,8 +49,12 @@ export default Quote;
 
 const Wrapper = styled.section`
   section {
-    background-color: rgba(251, 86, 48, 0.8);
+    background-color: lightgrey;
     min-width: 90%;
     min-height: 110vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 `;
