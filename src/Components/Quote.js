@@ -129,11 +129,13 @@ const Wrapper = styled.section`
     color: #54BAB9;
     border: none;
     opacity: .8;
-    transition: all .7s;
+    transition: all .5s;
 
     &:hover {
         opacity: 1;
         transform: rotate(360deg);
     }
+
+
   }
 `;
