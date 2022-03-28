@@ -59,7 +59,7 @@ export default Quote;
 
 const Wrapper = styled.section`
   section {
-    background-color: #eeedde;
+    background-color: #54BAB9;
 
     min-width: 90%;
     min-height: 110vh;
@@ -85,6 +85,10 @@ const Wrapper = styled.section`
     border: 1px solid #203239;
     background-color: #203239;
 
+@media only screen and (max-width: 800px) {
+    margin: 0 auto;
+}
+
     &_container {
       min-width: 100%;
       border: 1px solid #e0ddaa;
@@ -94,12 +98,12 @@ const Wrapper = styled.section`
 
   h1 {
     font-size: 2rem;
-    color #203239;
+    color: #203239be;
   }
 
   h2 {
     font-size: 1.8rem;
-    color #203239;
+    color rgba(0,0,0,0.3);
   }
 
   p {
@@ -121,8 +125,15 @@ const Wrapper = styled.section`
   }
 
   .icon {
-    font-size: 2rem;
-    color: #203239;
+    font-size: 3rem;
+    color: #54BAB9;
     border: none;
+    opacity: .8;
+    transition: all .7s;
+
+    &:hover {
+        opacity: 1;
+        transform: rotate(360deg);
+    }
   }
 `;
