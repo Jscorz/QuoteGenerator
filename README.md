@@ -18,7 +18,7 @@ This project was a fairly simple build process. First thing was connecting to th
 
 ## **Tech used:**
 
-HTML, CSS, Javascript, React JS, Styled components
+HTML, CSS, Javascript, React JS, Styled components, QuotesAPI
 
 ---
 
